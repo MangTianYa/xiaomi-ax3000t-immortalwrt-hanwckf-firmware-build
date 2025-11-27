@@ -6,7 +6,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: openwrt-24.10.4
+  REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: .config
   SELF_BEFORE_SH: before-update-custom.sh
   SELF_AFTER_SH: after-update-custom.sh
